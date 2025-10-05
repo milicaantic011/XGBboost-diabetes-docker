@@ -1,61 +1,53 @@
-# XGBoost Diabetes Classification
+# XGBoost Diabetes Classification 🏥
 
-Machine learning project using XGBoost to predict diabetes based on patient health metrics.
+A machine learning project using XGBoost to predict diabetes based on patient health metrics.
 
-## Overview
-- **Dataset**: 768 patients with 9 health features
-- **Model**: XGBoost Classifier with GridSearchCV hyperparameter tuning
-- **Accuracy**: ~78%
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-3.0.3-green)
+![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Features
-- Exploratory Data Analysis (EDA)
-- Data preprocessing and cleaning
-- Hyperparameter tuning
+## 📊 Overview
+
+This project implements a classification model to predict diabetes in patients using the Pima Indians Diabetes Database. The model uses XGBoost with hyperparameter tuning via GridSearchCV to achieve optimal performance.
+
+**Key Metrics:**
+- **Dataset Size:** 768 patients
+- **Features:** 9 health indicators
+- **Model Accuracy:** ~78%
+- **Best Feature:** Glucose level (highest importance)
+
+## ✨ Features
+
+- Comprehensive Exploratory Data Analysis (EDA)
+- Data preprocessing and cleaning (handling missing values)
+- XGBoost classifier with GridSearchCV hyperparameter optimization
 - Feature importance visualization
 - Confusion matrix analysis
+- Model performance evaluation (precision, recall, F1-score)
+- Fully Dockerized for reproducibility
 
-## Run with Docker
-```bash
-docker-compose up
+## 🚀 Quick Start
 
-
-
-## Run with Docker
-```bash
-docker-compose up
-
-cat > README.md << 'EOF'
-# XGBoost Diabetes Classification
-
-```
-
-
-## Overview
-- Dataset: 768 patients with 9 health features
-- Model: XGBoost Classifier with GridSearchCV hyperparameter tuning
-- Accuracy: ~78%
-
-## Features
-- Exploratory Data Analysis (EDA)
-- Data preprocessing and cleaning
-- Hyperparameter tuning
-- Feature importance visualization
-- Confusion matrix analysis
-
-## Run with Docker
-
-Run: docker-compose up
-
-Then copy the Jupyter URL from the terminal and open it in your browser.
-
-## Requirements
-- Docker
+### Prerequisites
+- Docker Desktop
 - Docker Compose
 
-## Project Structure
-- XGBoost Clasiffication.ipynb - Main notebook
-- diabetes.csv - Dataset
-- Dockerfile - Docker configuration
-- docker-compose.yml - Docker Compose setup
+### Run the Project
+```bash
+# Clone the repository
+git clone https://github.com/milicaantic011/XGBboost-diabetes-docker.git
+cd XGBboost-diabetes-docker
+
+# Start the Jupyter notebook server
+docker-compose up
+
+# Copy the URL with token from terminal output and open in browser
+# Example: http://127.0.0.1:8888/?token=abc123...
+
+
+
+
+
 
 docker-compose up
