@@ -39,10 +39,22 @@ This project implements a classification model to predict diabetes in patients u
 git clone https://github.com/milicaantic011/XGBboost-diabetes-docker.git
 cd XGBboost-diabetes-docker
 
+```
+
 # Start the Jupyter notebook server
 docker-compose up
 
 # Copy the URL with token from terminal output and open in browser
 # Example: http://127.0.0.1:8888/?token=abc123...
+
+### Stop the Container
+```bash
+docker-compose down
+```
+
+
+
+
+docker-compose down
 
 docker-compose up
