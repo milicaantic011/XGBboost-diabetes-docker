@@ -1,4 +1,4 @@
-# XGBoost Diabetes Classification 🏥
+# XGBoost Diabetes Classification 
 
 A machine learning project using XGBoost to predict diabetes based on patient health metrics.
 
@@ -7,7 +7,7 @@ A machine learning project using XGBoost to predict diabetes based on patient he
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 📊 Overview
+##  Overview
 
 This project implements a classification model to predict diabetes in patients using the Pima Indians Diabetes Database. The model uses XGBoost with hyperparameter tuning via GridSearchCV to achieve optimal performance.
 
@@ -17,7 +17,7 @@ This project implements a classification model to predict diabetes in patients u
 - **Model Accuracy:** ~78%
 - **Best Feature:** Glucose level (highest importance)
 
-## ✨ Features
+##  Features
 
 - Comprehensive Exploratory Data Analysis (EDA)
 - Data preprocessing and cleaning (handling missing values)
@@ -26,8 +26,8 @@ This project implements a classification model to predict diabetes in patients u
 - Confusion matrix analysis
 - Model performance evaluation (precision, recall, F1-score)
 - Fully Dockerized for reproducibility
-
-## 🚀 Quick Start
+  
+##  Quick Start
 
 ### Prerequisites
 - Docker Desktop
@@ -44,10 +44,5 @@ docker-compose up
 
 # Copy the URL with token from terminal output and open in browser
 # Example: http://127.0.0.1:8888/?token=abc123...
-
-
-
-
-
 
 docker-compose up
