@@ -1,3 +1,24 @@
+# XGBoost Diabetes Classification
+
+Machine learning project using XGBoost to predict diabetes based on patient health metrics.
+
+## Overview
+- **Dataset**: 768 patients with 9 health features
+- **Model**: XGBoost Classifier with GridSearchCV hyperparameter tuning
+- **Accuracy**: ~78%
+
+## Features
+- Exploratory Data Analysis (EDA)
+- Data preprocessing and cleaning
+- Hyperparameter tuning
+- Feature importance visualization
+- Confusion matrix analysis
+
+## Run with Docker
+```bash
+docker-compose up
+
+
 
 ## Run with Docker
 ```bash
@@ -6,7 +27,8 @@ docker-compose up
 cat > README.md << 'EOF'
 # XGBoost Diabetes Classification
 
-Machine learning project using XGBoost to predict diabetes based on patient health metrics.
+```
+
 
 ## Overview
 - Dataset: 768 patients with 9 health features
