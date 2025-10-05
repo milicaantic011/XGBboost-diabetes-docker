@@ -33,7 +33,7 @@ This project implements a classification model to predict diabetes in patients u
 - Docker Desktop
 - Docker Compose
 
-### Run the Project
+## Run the Project
 ```bash
 # Clone the repository
 git clone https://github.com/milicaantic011/XGBboost-diabetes-docker.git
@@ -47,7 +47,7 @@ docker-compose up
 # Copy the URL with token from terminal output and open in browser
 # Example: http://127.0.0.1:8888/?token=abc123...
 
-### Stop the Container
+## Stop the Container
 ```bash
 docker-compose down
 ```
@@ -55,6 +55,3 @@ docker-compose down
 
 
 
-docker-compose down
-
-docker-compose up
