@@ -107,7 +107,9 @@ MIT License - Copyright (c) 2025 Milica Antic
 
 **Milica Antic**
 - GitHub: [@milicaantic011](https://github.com/milicaantic011)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile-url)
 
 ---
 
-If you find this project useful, please consider giving it a star!
+
+
